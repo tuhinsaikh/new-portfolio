@@ -21,7 +21,7 @@
       <div class="header__content">
         <div class="header__logo-container">
           <div class="header__logo-img-cont">
-            <a href="./assets/png/tuhinpng.jpg">
+            <a href="./assets/png/tuhinpng.jpg"> 
               <img
               src="./assets/png/tuhinpng.jpg"
               alt="Ram Maheshwari Logo Image"
@@ -36,9 +36,12 @@
           <ul class="header__links">
             <li class="header__link-wrapper">
               <a href="./index.html" class="header__link"> Home </a>
-            </li>
+            </li>           
             <li class="header__link-wrapper">
               <a href="./index.html#about" class="header__link">About </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#skills" class="header__link">SKILLS </a>
             </li>
             <li class="header__link-wrapper">
               <a href="./index.html#projects" class="header__link">
@@ -73,6 +76,9 @@
             <li class="header__sm-menu-link">
               <a href="./index.html#about"> About </a>
             </li>
+            <li class="header__sm-menu-link">
+              <a href="./index.html#skills"> SKILLS </a>
+            </li>
 
             <li class="header__sm-menu-link">
               <a href="./index.html#projects"> Projects </a>
@@ -95,12 +101,12 @@
           </p>
         </div>
         <div class="home-hero__cta">
-          <a href="https://drive.google.com/file/d/1QRfWqSK3ZAigjoRMy0Up3DYhEITdL0SD/view?usp=sharing" class="btn btn--bg">RESUME</a>
+          <a href="https://drive.google.com/file/d/1mjy9ev9EdTEIsXV7EzW41UWMt3vnRlUP/view?usp=sharing" target="_blank" class="btn btn--bg">RESUME</a>
         </div>
       </div>
       <div class="home-hero__socials">
         <div class="home-hero__social">
-          <a href="https://linkedin.com/in/tuhin-saikh" class="home-hero__social-icon-link">
+          <a href="https://linkedin.com/in/tuhin-saikh" target="_blank" class="home-hero__social-icon-link">
             <img
               src="./assets/png/linkedin-ico.png"
               alt="icon"
@@ -109,7 +115,7 @@
           </a>
         </div>
         <div class="home-hero__social">
-          <a href="https://github.com/tuhinsaikh" class="home-hero__social-icon-link">
+          <a href="https://github.com/tuhinsaikh" target="_blank" class="home-hero__social-icon-link">
             <img
               src="./assets/png/github-ico.png"
               alt="icon"
@@ -117,15 +123,7 @@
             />
           </a>
         </div>
-        <!-- <div class="home-hero__social">
-          <a href="#" class="home-hero__social-icon-link">
-            <img
-              src="./assets/png/twitter-ico.png"
-              alt="icon"
-              class="home-hero__social-icon"
-            />
-          </a>
-        </div> -->
+     
         <div class="home-hero__social">
           
           <a href="#" class="home-hero__social-icon-link">
@@ -134,23 +132,12 @@
               alt="icon"
               class="home-hero__social-icon"
             />
-            <span id="icon-text">tsaikh7@gmail.com</span>
+         
           </a>
           
         </div>
         
-        <!-- <div class="home-hero__social">
-          <a
-            href="#"
-            class="home-hero__social-icon-link home-hero__social-icon-link--bd-none"
-          >
-            <img
-              src="./assets/png/insta-ico.png"
-              alt="icon"
-              class="home-hero__social-icon"
-            />
-          </a>
-        </div> -->
+     
       </div>
       <div class="home-hero__mouse-scroll-cont">
         <div class="mouse"></div>
@@ -193,19 +180,40 @@
             >
           </div>
           <div class="about__content-skills">
-            <h3 class="about__content-title">My Skills</h3>
-            <div class="skills">
-              <div class="skills__skill">HTML</div>
-              <div class="skills__skill">CSS</div>
-              <div class="skills__skill">Java</div>
-              <div class="skills__skill">SpringBoot</div>
-              <div class="skills__skill">Hibernate</div>
-              <div class="skills__skill">MySQL</div>
-              <div class="skills__skill">JavaScript</div>
-              <div class="skills__skill">NodeJs</div>
-              <div class="skills__skill">BootStrap</div>
-              <div class="skills__skill">Tally ERP9</div>
+            <!-- <h3 class="about__content-title">My Skills</h3> -->
+            <div >
+              <img id="about_content-img" src="./assets/png/tuhinpng.jpg" alt="">
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- need to change -->
+    <section id="skills" class="about sec-pad">
+   
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main">Skills</span>
+      
+        </h2>
+        <div class="skills">
+          <div class="skills__skill">HTML</div>
+          <div class="skills__skill">CSS</div>
+          <div class="skills__skill">Java</div>
+          <div class="skills__skill">JavaScript</div>
+          <div class="skills__skill">SpringBoot</div>
+          <div class="skills__skill">Hibernate</div>
+          <div class="skills__skill">MySQL</div>
+          <div class="skills__skill">NodeJs</div>
+          <div class="skills__skill">BootStrap</div>
+          <div class="skills__skill">JQueary</div>
+          <div class="skills__skill">TallyERP9</div>
+        </div>
+        <div class="about__content">
+          <div class="about__content-skills">
+          
+            <div class="skills">
+          </div>
           </div>
         </div>
       </div>
@@ -216,7 +224,45 @@
           <span class="heading-sec__main">Projects</span>
         </h2>
 
+
         <div class="projects__content">
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/png/online-shopping-app.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Online Shopping App APIs</h3>
+              <p class="projects__row-content-desc">
+                <strong> About Project: </strong> This project is a collaboration project based on Online Shopping App using Java, Spring, SpringBoot, MySQL and Hibernate.
+                <br>
+                <strong> Tech-Stack : </strong> JAVA | SpringBoot | MySQL | Hibernate
+                <br/>
+                <strong> Area of responsibility : </strong> My Responsibilities were to lead the project,
+                create user credentials functions(like login, logout, login session, updates credentials)
+                and others.                
+              </p>
+              <div class="btn-div">
+                <!-- <a
+                href="https://quiet-raindrop-90d4c4.netlify.app/index.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Live Site</a -->
+              >
+              <a
+                href="https://github.com/tuhinsaikh/Online-Shoping-App-SpringBoot-"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >GitHub</a
+              >
+              </div>
+             
+            </div>
+          </div>
           <div class="projects__row">
             <div class="projects__row-img-cont">
               <img
@@ -236,12 +282,21 @@
                 <strong> Area of responsibility : </strong> My responsibilities were blog and all sub-category pages, Signup page using
                 Masai API, Find a consultant, and other pages.                
               </p>
-              <a
+              <div class="btn-div">
+                <a
                 href="https://quiet-raindrop-90d4c4.netlify.app/index.html"
                 class="btn btn--med btn--theme dynamicBgClr"
                 target="_blank"
-                >Case Study</a
+                >Live Site</a
               >
+              <a
+              href="https://github.com/tuhinsaikh/Rodan-Fields-Project"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >GitHub</a
+              >
+              </div>
+             
             </div>
           </div>
           <div class="projects__row">
@@ -264,38 +319,23 @@
                 <strong> Area of responsibility : </strong> My responsibilities were blog and all sub-category pages, Signup page using
                 Masai API, Find a consultant, and other pages 
               </p>
-              <a
+              <div class="btn-div">
+                <a
                 href="https://melodious-moonbeam-d90fba.netlify.app/"
                 class="btn btn--med btn--theme dynamicBgClr"
                 target="_blank"
-                >Case Study</a
+                >Live Site</a
               >
-            </div>
-          </div>
-          <!-- <div class="projects__row">
-            <div class="projects__row-img-cont">
-              <img
-                src="./assets/jpeg/project-mockup-example.jpeg"
-                alt="Software Screenshot"
-                class="projects__row-img"
-                loading="lazy"
-              />
-            </div>
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Project 3</h3>
-              <p class="projects__row-content-desc">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                facilis tempora, explicabo quae quod deserunt eius sapiente
-                praesentium.
-              </p>
               <a
-                href="./project-3.html"
+                href="https://github.com/tuhinsaikh/Our-First-Project-att-masai-In-Github"
                 class="btn btn--med btn--theme dynamicBgClr"
                 target="_blank"
-                >Case Study</a
+                >GitHub</a
               >
+              </div>
             </div>
-          </div> -->
+          </div>
+
         </div>
       </div>
     </section>
@@ -307,8 +347,12 @@
           </span>
         </h2>
         <div class="contact__form-container">
+          <h1>tsaikh7@gmail.com</h1>
+          <h1>8582930097</h1>
           <form action="#" class="contact__form">
+            
             <div class="contact__form-field">
+              
               <label class="contact__form-label" for="name">Name</label>
               <input
                 required
